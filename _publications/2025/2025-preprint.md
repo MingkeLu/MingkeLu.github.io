@@ -4,8 +4,7 @@ date:           2025-05-17 00:01:00 +0800
 year_label:     Preprint
 selected:       false
 pub:            "arxiv"
-pub_date:       "2023"
-semantic_scholar_id: 11ac0b5634a282f1a0da204b98e7473d8b480dfb  # use this to retrieve citation count
+pub_date:       "2024"
 abstract: >-
   We propose a Path-Tracking Hybrid A* planner
   coupled with a hierarchical Model Predictive Control (MPC)
