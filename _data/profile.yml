@@ -4,7 +4,7 @@ navbar_name: "Mingke Lu"
 
 positions:
 - logo: /assets/images/badges/nus.png  # Logo is optional
-  name: Research Intern at AdaComp Lab, Smart Systems Institute, School of Computing, National University of Singapore
+  name: Research Intern at AdaComp Lab, School of Computing, National University of Singapore
 - logo: /assets/images/badges/PKU_red.png  # Logo is optional
   name: Undergraduate at College of Engineering, Peking University
 
@@ -23,12 +23,14 @@ github: MingkeLu
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    A <a href="https://en.wikipedia.org/wiki/Bicolor_cat" target="_blank">bicolor cat</a> is a cat with white fur combined with fur of some other colour, for example solid black, tabby, or colourpointed.
+    I am a fourth year undergraduate student at College of Engineering, Peking University (PKU), 
+    where I am advised by Prof. [Meng Guo](https://mengguo.github.io/personal_site/) and Prof. [Chang Liu](http://www2.coe.pku.edu.cn/faculty/liuchang/index.html).
+    I am expected to receive my bachelor's degree in 2026. I am currently a research intern at AdaComp Lab, School of Computing, National University of Singapore, 
+    advised by Prof. [David Hsu](https://www.comp.nus.edu.sg/~dyhsu/).
   </p>
   <p>
-    There are various patterns of a bicolour cat. These range from the Van-patterned (colour on the crown of the head 
-    and the tail only) to a solid colour with a throat locket or medallion. Bicolour coats are found in many cat breeds, 
-    as well as being common in domestic longhair and domestic shorthair cats.
+    My research interests lie at the intersection of task-planning, motion planning, learning, and control in robotic systems.
+    I am particularly interested in developing task-planning systems that can plan and execute complex tasks in open-world environments.
   </p>
 
 portrait_url: /assets/images/photos/portrait.jpg
