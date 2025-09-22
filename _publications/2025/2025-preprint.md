@@ -31,7 +31,9 @@ abstract: >-
   methods in safety, path adherence, computation speed, and real
   time obstacle avoidance.
 
-cover:          /assets/images/covers/cover3.jpg
+covers:
+  - src: /assets/images/covers/cover3.jpg
+  - src: /assets/images/covers/cover4.jpg
 authors:
   - Mingke Lu
   - Han Gao
