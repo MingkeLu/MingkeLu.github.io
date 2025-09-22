@@ -23,11 +23,11 @@ github: MingkeLu
 short_bio_text_justify: false
 short_bio: >-
   <p>
-  I am a fourth year undergraduate student at College of Engineering, Peking University (PKU), 
-where I am advised by Prof. <a href="https://mengguo.github.io/personal_site/" target="_blank">Meng Guo</a> and 
-Prof. <a href="http://www2.coe.pku.edu.cn/faculty/liuchang/index.html" target="_blank">Chang Liu</a>.
-I am expected to receive my bachelor's degree in 2026. I am currently a research intern at AdaComp Lab, School of Computing, National University of Singapore, 
-advised by Prof. <a href="https://www.comp.nus.edu.sg/~dyhsu/" target="_blank">David Hsu</a>.
+    I am a fourth year undergraduate student at College of Engineering, Peking University (PKU), 
+    where I am advised by Prof. <a href="https://mengguo.github.io/personal_site/" target="_blank">Meng Guo</a> and 
+    Prof. <a href="http://www2.coe.pku.edu.cn/faculty/liuchang/index.html" target="_blank">Chang Liu</a>.
+    I am expected to receive my bachelor's degree in 2026. I am currently a research intern at AdaComp Lab, School of Computing, National University of Singapore, 
+    advised by Prof. <a href="https://www.comp.nus.edu.sg/~dyhsu/" target="_blank">David Hsu</a>.
   </p>
   <p>
     My research interests lie at the intersection of task-planning, motion planning, learning, and control in robotic systems.
