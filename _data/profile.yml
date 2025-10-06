@@ -51,6 +51,10 @@ education:
   date: Sep. 2022 - present
 
 experience:
+- name: University of Hong Kong
+  logo: /assets/images/badges/hku.jpg
+  position: Engineering Intern
+  date: Jun. 2025 - Jul. 2025
 - name: National University of Singapore
   logo: /assets/images/badges/nus.png
   position: Research Intern
