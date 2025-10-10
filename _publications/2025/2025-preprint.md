@@ -2,7 +2,7 @@
 title:          "Path-Tracking Hybrid A* and Hierarchical MPC Framework for Autonomous Agricultural Vehicles"
 date:           2025-05-17 00:01:00 +0800
 year_label:     Preprint
-selected:       false
+selected:       true
 pub:            "arxiv"
 pub_date:       "2024"
 abstract: >-
