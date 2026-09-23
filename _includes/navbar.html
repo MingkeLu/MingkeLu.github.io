@@ -1,8 +1,8 @@
-<nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top mb-5 shadow-sm">
+<nav class="navbar navbar-expand-sm navbar-light fixed-top" aria-label="Main navigation">
     <div class="{% if page.container_class %}{{ page.container_class }}{% else %}container-lg{% endif %}">
-        <a class="navbar-brand"><strong>{{site.data.profile.navbar_name}}</strong></a>
+        <a class="navbar-brand" href="{{ '/' | relative_url }}"><strong>{{site.data.profile.navbar_name}}</strong><span class="brand-dot" aria-hidden="true">.</span></a>
         <button class="navbar-toggler" style="font-size: 1em; padding: 0.5em;" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fas fa-map"></i> Menu
+            <i class="fas fa-bars" aria-hidden="true"></i>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarResponsive">

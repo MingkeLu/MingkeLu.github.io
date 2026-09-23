@@ -3,6 +3,7 @@ title:          "Path-Tracking Hybrid A* and Hierarchical MPC Framework for Auto
 date:           2025-05-17 00:01:00 +0800
 year_label:     Preprint
 selected:       true
+summary:        "Path-tracking planning and hierarchical control for safe, precise autonomous navigation in agricultural environments."
 pub:            "arxiv"
 pub_date:       "2024"
 abstract: >-
@@ -31,9 +32,8 @@ abstract: >-
   methods in safety, path adherence, computation speed, and real
   time obstacle avoidance.
 
-covers:
-  - src: /assets/images/covers/cover3.jpg
-  - src: /assets/images/covers/cover4.jpg
+cover: /assets/images/covers/cover3.jpg
+cover_layout: path_tracking_grid
 authors:
   - Mingke Lu
   - Han Gao

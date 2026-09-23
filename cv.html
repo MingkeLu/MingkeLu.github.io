@@ -18,7 +18,7 @@ navbar_title: CV
                 {% assign cv_url = site.data.profile.cv_link %}
                 {% if cv_url contains '.pdf' %}
                 <div class="embed-responsive embed-responsive-4by3">
-                    <iframe class="embed-responsive-item" src="{{ cv_url | relative_url }}" allowfullscreen></iframe>
+                    <iframe class="embed-responsive-item" src="{{ cv_url | relative_url }}" title="Mingke Lu's curriculum vitae" allowfullscreen></iframe>
                 </div>
                 {% endif %}
                 {% else %}

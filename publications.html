@@ -8,12 +8,13 @@ body_attr: >-
 
 {% assign pubs_by_group = site.publications | sort: "date" | reverse | group_by_exp: "item", "item.year_label | default: item.date | date: '%Y'" %}
 
+<header class="page-heading"><h1>Publications</h1></header>
 <div class="row">
     <div class="col-12 col-lg-10">
         {% for group in pubs_by_group %}
         {% assign num_papers = group.items | size %}
         <h2 class="pt-4" id="year-{{ group.name }}">{{ group.name }}</h2>
-        <div class="my-0 p-0 bg-white shadow-sm rounded-xl">
+        <div class="publication-list">
             {% for item in group.items %}
                 {% include widgets/publication_item.html item=item hide_bottom_border=forloop.last first=forloop.first last=forloop.last %}
             {% endfor %}

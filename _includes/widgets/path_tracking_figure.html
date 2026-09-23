@@ -1,0 +1,15 @@
+<svg class="publication-figure" viewBox="0 0 2040 1155" role="img" aria-label="Path-tracking comparison: panels a, b, c across the top and d, e, f across the bottom, with trajectory legend below.">
+    {% assign panel_columns = '0,680' | split: ',' %}
+    {% assign panel_rows = '0,508,1014' | split: ',' %}
+    {% for source_x in panel_columns %}
+        {% assign target_y = forloop.index0 | times: 510 %}
+        {% for source_y in panel_rows %}
+        <svg x="{{ forloop.index0 | times: 680 }}" y="{{ target_y }}" width="680" height="510" viewBox="{{ source_x }} {{ source_y }} 680 510">
+            <image href="{{ '/assets/images/covers/cover3.jpg' | relative_url }}" width="1360" height="1614"/>
+        </svg>
+        {% endfor %}
+    {% endfor %}
+    <svg x="0" y="1020" width="2040" height="135" viewBox="0 1524 1360 90">
+        <image href="{{ '/assets/images/covers/cover3.jpg' | relative_url }}" width="1360" height="1614"/>
+    </svg>
+</svg>
